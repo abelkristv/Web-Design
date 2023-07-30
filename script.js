@@ -1,5 +1,5 @@
 let button1 = document.getElementById('button1');
-let button1cond = true;
+let button1cond = true; 
 button1.addEventListener('click', function() {
     if (button1cond) {
         button1cond = false;
