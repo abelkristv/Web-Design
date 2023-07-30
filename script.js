@@ -146,3 +146,19 @@ button7.addEventListener('click', function() {
     button7.innerHTML = "Hide image";
     return;
 })
+
+$(document).ready(function () {
+    $('#theme-changer').click(function (e) { 
+        var backColor = $("body").css("background-color")
+        if(backColor == 'rgb(0, 0, 0)') {
+            $('nav').css("background-color", "#2E110D")
+            $('#content').css("background-color", "#2E110D");
+            $('#theme-changer').attr('src', 'Assets/night.24273061.png');
+        }
+        else if(backColor == 'rgb(46, 17, 13)') {
+            $('#nav-container').css("background-color", "black")
+            $("body").css("background-color", "black");
+            $('#theme-changer').attr('src', 'Assets/day.952b7ce8.png');
+        }
+    });
+});

@@ -1,0 +1,6 @@
+WDTakeHomeCaseH1
+- Figma (Home Page)
+
+WDTakeHomeCaseH2
+- Figma (done)
+- web code (home menu, character, form, jquery, javascript)
