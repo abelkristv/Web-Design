@@ -1,0 +1,14 @@
+main {
+    padding-top: 100px;
+}
+
+.map-showcase {
+    background-image: url('../Assets/galaxy.c4f78857.jpg');
+}
+
+#showcase-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FDA74B;
+}

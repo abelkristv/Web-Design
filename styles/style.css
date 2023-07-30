@@ -157,3 +157,47 @@ video {
     height: 100%;
     padding: 60px;
 }
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FDA74B;
+    background-color: black;
+    padding: 20px;
+}
+
+footer h2{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#official{
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+footer hr{
+    border: none;
+    width: 100%;
+    background-color: #FDA74B;
+    height: 2px;
+}
+
+.arrow hr{
+    width: 150px;
+}
+
+.arrow{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow img{
+    width: 120px;
+}

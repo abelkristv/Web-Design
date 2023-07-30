@@ -39,7 +39,6 @@
     color: #FDA74B;
 }
 
-/* Footer */
 footer{
     display: flex;
     flex-direction: column;
@@ -86,5 +85,3 @@ footer hr{
 #traveller-bot {
     padding-bottom: 20px;
 }
-
-/* Footer End */
